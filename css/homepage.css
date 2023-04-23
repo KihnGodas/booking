@@ -1,0 +1,21 @@
+.content-container {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("../img/halong-bay-vietnam-from-above-gettyimages.jpg");
+    background-size: cover;
+}
+
+.content {
+    width: 80%;
+    margin: auto;
+    padding: 200px;
+}
+
+.content h1{
+    color: whitesmoke;
+    font-weight: 1000;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.content p{
+    color: whitesmoke;
+
+}
