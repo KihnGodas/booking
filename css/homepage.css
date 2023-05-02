@@ -1,10 +1,6 @@
-.content-container {
+.content {
     background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("../img/halong-bay-vietnam-from-above-gettyimages.jpg");
     background-size: cover;
-}
-
-.content {
-    width: 80%;
     margin: auto;
     padding: 200px;
 }
@@ -17,5 +13,30 @@
 }
 .content p{
     color: whitesmoke;
-
+    margin-bottom: 50px;
+}
+.content p::selection{
+    background-color: aqua;
+    color: black;
+}
+.content h1::selection{
+    background-color: aqua;
+    color: black;
+}
+.btn{
+    border-radius: 5px;
+    padding: 15px;
+    background-color:aqua ;
+}
+.popular-package{
+    margin-top: 50px;
+}
+.popular-package .header{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 100px ;
+}
+.header h1{
+    margin-bottom: 30px;
 }
