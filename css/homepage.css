@@ -40,3 +40,12 @@
 .header h1{
     margin-bottom: 30px;
 }
+.category{
+    display: flex;
+}
+.hover-overlay{
+    width: 100%;
+}
+.hover-overlay img{
+    width: 100%;
+}
