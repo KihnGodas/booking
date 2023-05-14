@@ -60,16 +60,7 @@
                     <ul class="nav-menu">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
-                        <li><a href="packages.html">Packages</a></li>
                         <li><a href="hotels.html">Hotels</a></li>
-                        <li><a href="insurance.html">Insurence</a></li>
-                        <li class="menu-has-children"><a href="">Blog</a>
-                            <ul>
-                                <li><a href="blog-home.html">Blog Home</a></li>
-                                <li><a href="blog-single.html">Blog Single</a></li>
-                            </ul>
-                        </li>
-                        
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav><!-- #nav-menu-container -->
@@ -94,24 +85,20 @@
 
     <div class="form">
         <div class="input">
-            <input type="text" name="user" id="user" placeholder="Username...">
+            <input type="text" name="user" id="user" placeholder="Email...">
         </div>
         <br>
         <div class="input">
             <input type="password" name="password" id="pass" placeholder="Password...">
         </div>
-        <div class="input" style="margin-top: 20px;">
-            <input type="password" name="password" id="pass" placeholder="Confirm password">
-        </div>
         <div class="button">
-            <button class="primary-btn text-uppercase submit">Register</button>
+            <button class="primary-btn text-uppercase submit" id="button">Register</button>
         </div>
     </div>
 
     <script src="js/vendor/jquery-2.2.4.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/vendor/bootstrap.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
     <script src="js/jquery-ui.js"></script>
     <script src="js/easing.min.js"></script>
     <script src="js/hoverIntent.js"></script>
@@ -122,6 +109,8 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/mail-script.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/user.js" type="module"></script>
+    <script src="js/firebase.js" type="module"></script>
 </body>
 
 </html>
