@@ -7,7 +7,6 @@ import { app } from "./firebase.js";
 
 import {
   getDatabase,
-  set,
   ref,
   update,
 } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-database.js";
