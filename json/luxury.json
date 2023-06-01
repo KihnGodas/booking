@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Miss Alexandra Rosenbaum",
+    "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/562.jpg",
+    "id": "1",
+    "price": "123"
+  },
+  {
+    "name": "Mr. Antonio Schultz",
+    "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/862.jpg",
+    "id": "2",
+    "price": "123"
+  },
+  {
+    "name": "Antonia Krajcik",
+    "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/718.jpg",
+    "id": "3",
+    "price": "123"
+  },
+  {
+    "name": "Pedro Leffler",
+    "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/24.jpg",
+    "id": "4"
+    ,"price": "123"
+  },
+  {
+    "name": "Micheal Pfannerstill",
+    "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/641.jpg",
+    "id": "5",
+    "price": "123"
+  },
+  {
+    "name": "Raul Ledner",
+    "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/555.jpg",
+    "id": "6",
+    "price": "123"
+  }
+]

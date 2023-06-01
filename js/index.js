@@ -1,5 +1,6 @@
-let hotelColumn = document.querySelector(".hotel")
-let cityColumn = document.querySelector(".city")
+let hotelColumn = document.querySelector(".hotel");
+let luxuryColumn = document.querySelector(".luxury")
+let cityColumn = document.querySelector(".city");
 
 fetch('../json/city.json')
     .then(response => {
@@ -11,7 +12,7 @@ fetch('../json/city.json')
     })
     .then(data => {
         cityName = data;
-        showMain(cityColumn,cityName)
+        showMain(cityColumn, cityName)
     })
     .catch(error => {
         console.error(error);
@@ -27,13 +28,30 @@ fetch('../json/hotel.json')
     })
     .then(data => {
         hotelName = data;
-        showMain(hotelColumn,hotelName)
+        showMain(hotelColumn, hotelName)
     })
     .catch(error => {
         console.error(error);
     });
 
-function showMain(place,data) {
+
+fetch('../json/luxury.json')
+    .then(response => {
+        if (response.ok) {
+            return response.json();
+        } else {
+            throw new Error('API request failed');
+        }
+    })
+    .then(data => {
+        luxuryName = data;
+        showMain(luxuryColumn, luxuryName)
+    })
+    .catch(error => {
+        console.error(error);
+    });
+
+function showMain(place, data) {
     if (place) {
         for (let item of data) {
             place.innerHTML += `
