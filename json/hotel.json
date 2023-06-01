@@ -1,38 +1,38 @@
 [
     {
-        "hotelName": "Talon",
-        "hotelAvatar": "https://loremflickr.com/640/480/business",
-        "price": 64,
+        "name": "Talon",
+        "avatar": "https://loremflickr.com/640/480/business",
+        "price": 614,
         "id": "1"
     },
     {
-        "hotelName": "Kaleb",
-        "hotelAvatar": "https://loremflickr.com/640/480/business",
-        "price": 49,
+        "name": "Kaleb",
+        "avatar": "https://loremflickr.com/640/480/business",
+        "price": 449,
         "id": "2"
     },
     {
-        "hotelName": "Theodore",
-        "hotelAvatar": "https://loremflickr.com/640/480/business",
-        "price": 7,
+        "name": "Theodore",
+        "avatar": "https://loremflickr.com/640/480/business",
+        "price": 437,
         "id": "3"
     },
     {
-        "hotelName": "Sandra",
-        "hotelAvatar": "https://loremflickr.com/640/480/business",
-        "price": 51,
+        "name": "Sandra",
+        "avatar": "https://loremflickr.com/640/480/business",
+        "price": 511,
         "id": "4"
     },
     {
-        "hotelName": "Fatima",
-        "hotelAvatar": "https://loremflickr.com/640/480/business",
-        "price": 77,
+        "name": "Fatima",
+        "avatar": "https://loremflickr.com/640/480/business",
+        "price": 774,
         "id": "5"
     },
     {
-        "hotelName": "Dexter",
-        "hotelAvatar": "https://loremflickr.com/640/480/business",
-        "price": 63,
+        "name": "Dexter",
+        "avatar": "https://loremflickr.com/640/480/business",
+        "price": 633,
         "id": "6"
     }
 ]

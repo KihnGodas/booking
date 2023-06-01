@@ -1,37 +1,37 @@
 [
     {
-        "city-name": "Providence",
-        "city-avatar": "https://loremflickr.com/640/480/city",
+        "name": "Providence",
+        "avatar": "https://loremflickr.com/640/480/city",
         "price": 94,
         "id": "1"
     },
     {
-        "city-name": "Milpitas",
-        "city-avatar": "https://loremflickr.com/640/480/city",
+        "name": "Milpitas",
+        "avatar": "https://loremflickr.com/640/480/city",
         "price": 86,
         "id": "2"
     },
     {
-        "city-name": "Redmond",
-        "city-avatar": "https://loremflickr.com/640/480/city",
+        "name": "Redmond",
+        "avatar": "https://loremflickr.com/640/480/city",
         "price": 23,
         "id": "3"
     },
     {
-        "city-name": "San Francisco",
-        "city-avatar": "https://loremflickr.com/640/480/city",
+        "name": "San Francisco",
+        "avatar": "https://loremflickr.com/640/480/city",
         "price": 94,
         "id": "4"
     },
     {
-        "city-name": "Flower Mound",
-        "city-avatar": "https://loremflickr.com/640/480/city",
+        "name": "Flower Mound",
+        "avatar": "https://loremflickr.com/640/480/city",
         "price": 69,
         "id": "5"
     },
     {
-        "city-name": "Trenton",
-        "city-avatar": "https://loremflickr.com/640/480/city",
+        "name": "Trenton",
+        "avatar": "https://loremflickr.com/640/480/city",
         "price": 75,
         "id": "6"
     }

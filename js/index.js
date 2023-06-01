@@ -1,6 +1,5 @@
 let hotelColumn = document.querySelector(".hotel")
-let cityName = [];
-let hotelName = [];
+let cityColumn = document.querySelector(".city")
 
 fetch('../json/city.json')
     .then(response => {
@@ -12,6 +11,7 @@ fetch('../json/city.json')
     })
     .then(data => {
         cityName = data;
+        showMain(cityColumn,cityName)
     })
     .catch(error => {
         console.error(error);
@@ -27,22 +27,20 @@ fetch('../json/hotel.json')
     })
     .then(data => {
         hotelName = data;
+        showMain(hotelColumn,hotelName)
     })
     .catch(error => {
         console.error(error);
     });
 
-function showMain(data) {
-    if (hotelColumn) {
+function showMain(place,data) {
+    if (place) {
         for (let item of data) {
-            hotelColumn.innerHTML += `
+            place.innerHTML += `
             <li class="d-flex justify-content-between align-items-center">
-                <span>${item.hotelName}</span>
+                <span>${item.name}</span>
                 <a href="#" class="price-btn">$${item.price}</a>
-            </li>												
-        `
+            </li>`
         }
-
     }
 }
-showMain(hotelName)

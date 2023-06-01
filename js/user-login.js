@@ -13,7 +13,9 @@ import {
 
 const auth = getAuth(app);
 const database = getDatabase(app);
-
+if(localAcc == null){
+  let localAcc;
+}
 
 document.getElementById("button").addEventListener("click", (e) => {
   let email = document.querySelector("#user").value;
@@ -21,7 +23,6 @@ document.getElementById("button").addEventListener("click", (e) => {
 
   signInWithEmailAndPassword(auth, email, password)
     .then((userCredential) => {
-      // Signed in
       let lgDate = new Date();
       const user = userCredential.user;
       update(ref(database, "users/" + user.uid), {
@@ -29,7 +30,8 @@ document.getElementById("button").addEventListener("click", (e) => {
       })
         .then(() => {
           alert("user logged successfully");
-          localStorage.setItem('localUser',)
+          localStorage.setItem('localUser',"1")
+          window.location ="index.html"
         })
         .catch((error) => {
           alert(error);
