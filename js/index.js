@@ -57,7 +57,7 @@ function showMain(place, data) {
             place.innerHTML += `
             <li class="d-flex justify-content-between align-items-center">
                 <span>${item.name}</span>
-                <a href="#" class="price-btn">$${item.price}</a>
+                <a href="#" class="price-btn" onclick="">$${item.price}</a>
             </li>`
         }
     }
